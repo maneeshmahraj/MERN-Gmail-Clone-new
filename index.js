@@ -8,6 +8,6 @@ app.use(cors())
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json({ extended: true }))
 app.use('/', mailRoutes)
-Connection()
+Connection();
 
-app.listen(port, () => { console.log(`server is running on port ${port}`); })
+app.listen(port, () => { console.log(`server is running on port ${port} this is mk`); })
